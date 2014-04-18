@@ -4,6 +4,9 @@ $(document).ready(function(){
   
   $('#random_number').click(function() {
 	  $(this).html(Math.floor(Math.random()*10));
+	  $(this).css('color','#'+Math.floor(Math.random()*999999))
 	});
+	
+	
 });
   
